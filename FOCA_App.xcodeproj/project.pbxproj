@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0914C9481FC3378A00B44384 /* Curso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0914C9471FC3378A00B44384 /* Curso.swift */; };
+		0914C94A1FC33D5400B44384 /* CursoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0914C9491FC33D5400B44384 /* CursoCollectionViewCell.swift */; };
+		0914C94C1FC340D900B44384 /* CursosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0914C94B1FC340D900B44384 /* CursosViewController.swift */; };
+		094D1E9E1FC4F8280037FEC6 /* modalNovoCurso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D1E9D1FC4F8280037FEC6 /* modalNovoCurso.swift */; };
+		097C4DC01FCE0DAE004E5984 /* contadorPromodoroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097C4DBF1FCE0DAE004E5984 /* contadorPromodoroViewController.swift */; };
+		097C4DC21FCE0DCF004E5984 /* avaliacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097C4DC11FCE0DCF004E5984 /* avaliacaoViewController.swift */; };
+		09973CD91FC12587002C4614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09973CD81FC12587002C4614 /* AppDelegate.swift */; };
+		09973CDE1FC12587002C4614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09973CDC1FC12587002C4614 /* Main.storyboard */; };
+		09973CE31FC12587002C4614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09973CE21FC12587002C4614 /* Assets.xcassets */; };
+		09973CE61FC12587002C4614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09973CE41FC12587002C4614 /* LaunchScreen.storyboard */; };
+		09973CEE1FC126A7002C4614 /* CursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09973CED1FC126A7002C4614 /* CursoViewController.swift */; };
+		09973CF11FC12959002C4614 /* TopicoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09973CF01FC12959002C4614 /* TopicoCell.swift */; };
+		09973CF31FC12A24002C4614 /* TopicoFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09973CF21FC12A24002C4614 /* TopicoFront.swift */; };
+		09B3EF4D1FC396E3002B0607 /* CursoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3EF4C1FC396E3002B0607 /* CursoDetails.swift */; };
+		09B3EF4F1FC3A329002B0607 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3EF4E1FC3A329002B0607 /* CosmosDistrib.swift */; };
+		09CFA09A1FC3ACAF0055A961 /* PlanejadorDias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CFA0991FC3ACAF0055A961 /* PlanejadorDias.swift */; };
+		09CFA09C1FC3AE5B0055A961 /* diasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CFA09B1FC3AE5B0055A961 /* diasCell.swift */; };
+		3F2CEB941FCDC4E3007D898B /* Materia+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CEB8E1FCDC4E3007D898B /* Materia+CoreDataClass.swift */; };
+		3F2CEB951FCDC4E3007D898B /* Materia+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CEB8F1FCDC4E3007D898B /* Materia+CoreDataProperties.swift */; };
+		3F2CEB961FCDC4E3007D898B /* Usuario+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CEB901FCDC4E3007D898B /* Usuario+CoreDataClass.swift */; };
+		3F2CEB971FCDC4E3007D898B /* Usuario+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CEB911FCDC4E3007D898B /* Usuario+CoreDataProperties.swift */; };
+		3F2CEB981FCDC4E3007D898B /* Topico+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CEB921FCDC4E3007D898B /* Topico+CoreDataClass.swift */; };
+		3F2CEB991FCDC4E3007D898B /* Topico+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CEB931FCDC4E3007D898B /* Topico+CoreDataProperties.swift */; };
+		3F2D2B5B1FC88000008DBFC5 /* novoCursoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D2B591FC88000008DBFC5 /* novoCursoCollectionViewCell.swift */; };
+		3F2D2B5C1FC88000008DBFC5 /* novoCursosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D2B5A1FC88000008DBFC5 /* novoCursosViewController.swift */; };
+		3F2D2B5E1FC88C0E008DBFC5 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D2B5D1FC88C0E008DBFC5 /* PerfilViewController.swift */; };
+		3F2D2B601FC8A184008DBFC5 /* cadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D2B5F1FC8A184008DBFC5 /* cadastroViewController.swift */; };
+		3F8C97AE1FD06824000AD32D /* TopicoFront2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C97AD1FD06823000AD32D /* TopicoFront2.swift */; };
+		3FE4989C1FCC66F9001EDFFE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE498901FCC66F9001EDFFE /* CoreDataManager.swift */; };
+		3FE4989D1FCC66F9001EDFFE /* FocaDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FE498911FCC66F9001EDFFE /* FocaDB.xcdatamodeld */; };
+		3FE4989F1FCC66F9001EDFFE /* MateriaDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE498941FCC66F9001EDFFE /* MateriaDAO.swift */; };
+		3FE498A01FCC66F9001EDFFE /* TopicoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE498951FCC66F9001EDFFE /* TopicoDAO.swift */; };
+		3FE498A11FCC66F9001EDFFE /* UsuarioDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE498961FCC66F9001EDFFE /* UsuarioDAO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0914C9471FC3378A00B44384 /* Curso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curso.swift; sourceTree = "<group>"; };
+		0914C9491FC33D5400B44384 /* CursoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CursoCollectionViewCell.swift; sourceTree = "<group>"; };
+		0914C94B1FC340D900B44384 /* CursosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CursosViewController.swift; sourceTree = "<group>"; };
+		094D1E9D1FC4F8280037FEC6 /* modalNovoCurso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modalNovoCurso.swift; sourceTree = "<group>"; };
+		097C4DBF1FCE0DAE004E5984 /* contadorPromodoroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contadorPromodoroViewController.swift; sourceTree = "<group>"; };
+		097C4DC11FCE0DCF004E5984 /* avaliacaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = avaliacaoViewController.swift; sourceTree = "<group>"; };
+		09973CD51FC12587002C4614 /* FOCA_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOCA_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09973CD81FC12587002C4614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09973CDD1FC12587002C4614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09973CE21FC12587002C4614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09973CE51FC12587002C4614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09973CE71FC12587002C4614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09973CED1FC126A7002C4614 /* CursoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CursoViewController.swift; sourceTree = "<group>"; };
+		09973CF01FC12959002C4614 /* TopicoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicoCell.swift; sourceTree = "<group>"; };
+		09973CF21FC12A24002C4614 /* TopicoFront.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicoFront.swift; sourceTree = "<group>"; };
+		09B3EF4C1FC396E3002B0607 /* CursoDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CursoDetails.swift; sourceTree = "<group>"; };
+		09B3EF4E1FC3A329002B0607 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		09CFA0991FC3ACAF0055A961 /* PlanejadorDias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanejadorDias.swift; sourceTree = "<group>"; };
+		09CFA09B1FC3AE5B0055A961 /* diasCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = diasCell.swift; sourceTree = "<group>"; };
+		3F2CEB8E1FCDC4E3007D898B /* Materia+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Materia+CoreDataClass.swift"; path = "../../Materia+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F2CEB8F1FCDC4E3007D898B /* Materia+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Materia+CoreDataProperties.swift"; path = "../../Materia+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F2CEB901FCDC4E3007D898B /* Usuario+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Usuario+CoreDataClass.swift"; path = "../../Usuario+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F2CEB911FCDC4E3007D898B /* Usuario+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Usuario+CoreDataProperties.swift"; path = "../../Usuario+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F2CEB921FCDC4E3007D898B /* Topico+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Topico+CoreDataClass.swift"; path = "../../Topico+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F2CEB931FCDC4E3007D898B /* Topico+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Topico+CoreDataProperties.swift"; path = "../../Topico+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F2D2B591FC88000008DBFC5 /* novoCursoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = novoCursoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F2D2B5A1FC88000008DBFC5 /* novoCursosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = novoCursosViewController.swift; sourceTree = "<group>"; };
+		3F2D2B5D1FC88C0E008DBFC5 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		3F2D2B5F1FC8A184008DBFC5 /* cadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cadastroViewController.swift; sourceTree = "<group>"; };
+		3F8C97AD1FD06823000AD32D /* TopicoFront2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicoFront2.swift; sourceTree = "<group>"; };
+		3FE498901FCC66F9001EDFFE /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3FE498921FCC66F9001EDFFE /* FocaDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FocaDB.xcdatamodel; sourceTree = "<group>"; };
+		3FE498941FCC66F9001EDFFE /* MateriaDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MateriaDAO.swift; sourceTree = "<group>"; };
+		3FE498951FCC66F9001EDFFE /* TopicoDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicoDAO.swift; sourceTree = "<group>"; };
+		3FE498961FCC66F9001EDFFE /* UsuarioDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioDAO.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09973CD21FC12587002C4614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09973CCC1FC12587002C4614 = {
+			isa = PBXGroup;
+			children = (
+				09973CD71FC12587002C4614 /* FOCA_App */,
+				09973CD61FC12587002C4614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09973CD61FC12587002C4614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09973CD51FC12587002C4614 /* FOCA_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09973CD71FC12587002C4614 /* FOCA_App */ = {
+			isa = PBXGroup;
+			children = (
+				3FE498891FCC66F9001EDFFE /* Model */,
+				09973CF61FC12A68002C4614 /* View */,
+				09973CF41FC12A31002C4614 /* Classes */,
+				09973CEF1FC126BE002C4614 /* Controller */,
+				09973CF51FC12A56002C4614 /* Supporting Files */,
+			);
+			path = FOCA_App;
+			sourceTree = "<group>";
+		};
+		09973CEF1FC126BE002C4614 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				097C4DC11FCE0DCF004E5984 /* avaliacaoViewController.swift */,
+				3F2D2B581FC87F4B008DBFC5 /* Catalogo */,
+				09973CED1FC126A7002C4614 /* CursoViewController.swift */,
+				09973CF01FC12959002C4614 /* TopicoCell.swift */,
+				3F2D2B571FC87DF7008DBFC5 /* Meus Cursos */,
+				09B3EF4C1FC396E3002B0607 /* CursoDetails.swift */,
+				09CFA0991FC3ACAF0055A961 /* PlanejadorDias.swift */,
+				09CFA09B1FC3AE5B0055A961 /* diasCell.swift */,
+				094D1E9D1FC4F8280037FEC6 /* modalNovoCurso.swift */,
+				3F2D2B5D1FC88C0E008DBFC5 /* PerfilViewController.swift */,
+				3F2D2B5F1FC8A184008DBFC5 /* cadastroViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		09973CF41FC12A31002C4614 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				097C4DBF1FCE0DAE004E5984 /* contadorPromodoroViewController.swift */,
+				09973CF21FC12A24002C4614 /* TopicoFront.swift */,
+				0914C9471FC3378A00B44384 /* Curso.swift */,
+				09B3EF4E1FC3A329002B0607 /* CosmosDistrib.swift */,
+				3F8C97AD1FD06823000AD32D /* TopicoFront2.swift */,
+			);
+			name = Classes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		09973CF51FC12A56002C4614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09973CD81FC12587002C4614 /* AppDelegate.swift */,
+				09973CE21FC12587002C4614 /* Assets.xcassets */,
+				09973CE41FC12587002C4614 /* LaunchScreen.storyboard */,
+				09973CE71FC12587002C4614 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09973CF61FC12A68002C4614 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09973CDC1FC12587002C4614 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F2D2B571FC87DF7008DBFC5 /* Meus Cursos */ = {
+			isa = PBXGroup;
+			children = (
+				0914C9491FC33D5400B44384 /* CursoCollectionViewCell.swift */,
+				0914C94B1FC340D900B44384 /* CursosViewController.swift */,
+			);
+			name = "Meus Cursos";
+			sourceTree = "<group>";
+		};
+		3F2D2B581FC87F4B008DBFC5 /* Catalogo */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D2B591FC88000008DBFC5 /* novoCursoCollectionViewCell.swift */,
+				3F2D2B5A1FC88000008DBFC5 /* novoCursosViewController.swift */,
+			);
+			name = Catalogo;
+			sourceTree = "<group>";
+		};
+		3FE498891FCC66F9001EDFFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FE498901FCC66F9001EDFFE /* CoreDataManager.swift */,
+				3FE498911FCC66F9001EDFFE /* FocaDB.xcdatamodeld */,
+				3FE498AF1FCC67F9001EDFFE /* DAO */,
+				3FE498B01FCC6813001EDFFE /* VO */,
+			);
+			name = Model;
+			path = FocaDB;
+			sourceTree = "<group>";
+		};
+		3FE498AF1FCC67F9001EDFFE /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				3FE498941FCC66F9001EDFFE /* MateriaDAO.swift */,
+				3FE498951FCC66F9001EDFFE /* TopicoDAO.swift */,
+				3FE498961FCC66F9001EDFFE /* UsuarioDAO.swift */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		3FE498B01FCC6813001EDFFE /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				3F2CEB8F1FCDC4E3007D898B /* Materia+CoreDataProperties.swift */,
+				3F2CEB901FCDC4E3007D898B /* Usuario+CoreDataClass.swift */,
+				3F2CEB911FCDC4E3007D898B /* Usuario+CoreDataProperties.swift */,
+				3F2CEB921FCDC4E3007D898B /* Topico+CoreDataClass.swift */,
+				3F2CEB931FCDC4E3007D898B /* Topico+CoreDataProperties.swift */,
+				3F2CEB8E1FCDC4E3007D898B /* Materia+CoreDataClass.swift */,
+			);
+			name = VO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09973CD41FC12587002C4614 /* FOCA_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09973CEA1FC12587002C4614 /* Build configuration list for PBXNativeTarget "FOCA_App" */;
+			buildPhases = (
+				09973CD11FC12587002C4614 /* Sources */,
+				09973CD21FC12587002C4614 /* Frameworks */,
+				09973CD31FC12587002C4614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FOCA_App;
+			productName = FOCA_App;
+			productReference = 09973CD51FC12587002C4614 /* FOCA_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09973CCD1FC12587002C4614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Platiplus;
+				TargetAttributes = {
+					09973CD41FC12587002C4614 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L7E2UT3M6D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09973CD01FC12587002C4614 /* Build configuration list for PBXProject "FOCA_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09973CCC1FC12587002C4614;
+			productRefGroup = 09973CD61FC12587002C4614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09973CD41FC12587002C4614 /* FOCA_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09973CD31FC12587002C4614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09973CE61FC12587002C4614 /* LaunchScreen.storyboard in Resources */,
+				09973CE31FC12587002C4614 /* Assets.xcassets in Resources */,
+				09973CDE1FC12587002C4614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09973CD11FC12587002C4614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2D2B601FC8A184008DBFC5 /* cadastroViewController.swift in Sources */,
+				09B3EF4D1FC396E3002B0607 /* CursoDetails.swift in Sources */,
+				3F2CEB941FCDC4E3007D898B /* Materia+CoreDataClass.swift in Sources */,
+				3F2CEB961FCDC4E3007D898B /* Usuario+CoreDataClass.swift in Sources */,
+				094D1E9E1FC4F8280037FEC6 /* modalNovoCurso.swift in Sources */,
+				09973CEE1FC126A7002C4614 /* CursoViewController.swift in Sources */,
+				3F8C97AE1FD06824000AD32D /* TopicoFront2.swift in Sources */,
+				3F2D2B5B1FC88000008DBFC5 /* novoCursoCollectionViewCell.swift in Sources */,
+				09CFA09C1FC3AE5B0055A961 /* diasCell.swift in Sources */,
+				3F2CEB971FCDC4E3007D898B /* Usuario+CoreDataProperties.swift in Sources */,
+				3FE4989C1FCC66F9001EDFFE /* CoreDataManager.swift in Sources */,
+				09CFA09A1FC3ACAF0055A961 /* PlanejadorDias.swift in Sources */,
+				3F2CEB991FCDC4E3007D898B /* Topico+CoreDataProperties.swift in Sources */,
+				3F2D2B5E1FC88C0E008DBFC5 /* PerfilViewController.swift in Sources */,
+				3FE4989D1FCC66F9001EDFFE /* FocaDB.xcdatamodeld in Sources */,
+				0914C94C1FC340D900B44384 /* CursosViewController.swift in Sources */,
+				09B3EF4F1FC3A329002B0607 /* CosmosDistrib.swift in Sources */,
+				09973CF11FC12959002C4614 /* TopicoCell.swift in Sources */,
+				3FE498A11FCC66F9001EDFFE /* UsuarioDAO.swift in Sources */,
+				097C4DC01FCE0DAE004E5984 /* contadorPromodoroViewController.swift in Sources */,
+				3FE498A01FCC66F9001EDFFE /* TopicoDAO.swift in Sources */,
+				3F2D2B5C1FC88000008DBFC5 /* novoCursosViewController.swift in Sources */,
+				09973CF31FC12A24002C4614 /* TopicoFront.swift in Sources */,
+				09973CD91FC12587002C4614 /* AppDelegate.swift in Sources */,
+				3F2CEB981FCDC4E3007D898B /* Topico+CoreDataClass.swift in Sources */,
+				097C4DC21FCE0DCF004E5984 /* avaliacaoViewController.swift in Sources */,
+				3F2CEB951FCDC4E3007D898B /* Materia+CoreDataProperties.swift in Sources */,
+				0914C9481FC3378A00B44384 /* Curso.swift in Sources */,
+				3FE4989F1FCC66F9001EDFFE /* MateriaDAO.swift in Sources */,
+				0914C94A1FC33D5400B44384 /* CursoCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09973CDC1FC12587002C4614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09973CDD1FC12587002C4614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09973CE41FC12587002C4614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09973CE51FC12587002C4614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09973CE81FC12587002C4614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09973CE91FC12587002C4614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09973CEB1FC12587002C4614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L7E2UT3M6D;
+				INFOPLIST_FILE = FOCA_App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Plat.FOCA-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		09973CEC1FC12587002C4614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L7E2UT3M6D;
+				INFOPLIST_FILE = FOCA_App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Plat.FOCA-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09973CD01FC12587002C4614 /* Build configuration list for PBXProject "FOCA_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09973CE81FC12587002C4614 /* Debug */,
+				09973CE91FC12587002C4614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09973CEA1FC12587002C4614 /* Build configuration list for PBXNativeTarget "FOCA_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09973CEB1FC12587002C4614 /* Debug */,
+				09973CEC1FC12587002C4614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FE498911FCC66F9001EDFFE /* FocaDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FE498921FCC66F9001EDFFE /* FocaDB.xcdatamodel */,
+			);
+			currentVersion = 3FE498921FCC66F9001EDFFE /* FocaDB.xcdatamodel */;
+			path = FocaDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09973CCD1FC12587002C4614 /* Project object */;
+}
